@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Marvel</string>
+    <string name="character_image_contentDesc">Character image</string>
+    <string name="character_unknown">There is no information</string>
+    <string name="no_results">No results , please check your internet connection</string>
+
+    <string name="characters_title_action_bar">Marvel</string>
+    <string name="details_title_action_bar">Detalle</string>
+
+    <string name="exitApp">Salir de la App</string>
+    <string name="exitQuestion">¿Quieres salir de la App?</string>
+    <string name="yes">Sí</string>
+    <string name="cancel">Cancelar</string>
+
+</resources>
