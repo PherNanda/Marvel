@@ -19,7 +19,7 @@ import org.mockito.Mockito
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */
-class ExampleUnitTest : BaseUnitTest(){
+class MarvelUnitTest : BaseUnitTest(){
 
    @Test
     fun testCharacterFavorite() {
