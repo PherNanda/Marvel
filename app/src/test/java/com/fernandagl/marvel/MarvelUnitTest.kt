@@ -22,7 +22,7 @@ import org.mockito.Mockito
 class MarvelUnitTest : BaseUnitTest(){
 
    @Test
-    fun testCharacterFavorite() {
+    fun testCharacter() {
         runBlocking {
             val responseMock = MarvelResponse(code=1,
                 status="",
@@ -67,25 +67,6 @@ open class BaseUnitTest {
     val repoMock: CharactersRepository? = Mockito.mock(CharactersRepository::class.java)
 
     val repoComicMock: ComicsRepository = Mockito.mock(ComicsRepositoryImpl::class.java)
-
-    fun createCharacter(): Data {
-        return Data(
-            offset = 1,
-            limit = 2,
-            total = 3,
-            count = 3,
-            results = listOf(
-                Character(
-                    id = 1, name = "Hulk",
-                    description = "descripción", Thumbnail(path = "", extension = "")
-                ),
-                Character(
-                    id = 2, name = "IronMan",
-                    description = "descripción", Thumbnail(path = "", extension = "")
-                )
-            )
-        )
-    }
 
     fun createComic(): List<Comic> {
 
